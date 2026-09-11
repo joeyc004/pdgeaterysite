@@ -48,7 +48,7 @@ export function Hero() {
                 </span>
               </h1>
               <p className="text-base sm:text-lg text-[#5D5248] leading-relaxed max-w-2xl font-light">
-                Welcome to PDG's Eatery at 88 Cambridge Road, St Helens (WA10 4HA). Established in 2007 by Paul Gaskin with over 40 years of catering experience, we serve hearty cooked breakfasts, oven-baked jacket potatoes, sandwiches, and daily home-cooked specials in a friendly, spotless setting.
+                Welcome to PDG's Eatery. Established in 2007 by Paul Gaskin with over 40 years of catering experience, we serve hearty cooked breakfasts, oven-baked jacket potatoes, sandwiches, and daily home-cooked specials in a friendly, spotless setting.
               </p>
             </div>
 
