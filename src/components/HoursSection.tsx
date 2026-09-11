@@ -34,7 +34,7 @@ export function HoursSection() {
 
   return (
     <section id="hours" className="py-20 bg-[#F4EEE2] border-b border-[#E8DEC8]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
         {/* Section Heading */}
         <div className="text-center max-w-3xl mx-auto mb-14 space-y-3">
           <span className="text-xs uppercase font-bold tracking-widest text-[#8A3B14] block">
@@ -51,7 +51,7 @@ export function HoursSection() {
         {/* Live Status Hero Banner */}
         <div 
           id="today-live-status-card"
-          className="max-w-4xl mx-auto mb-12 rounded-2xl bg-white p-6 sm:p-8 border border-[#DFD5C3] shadow-sm flex flex-col md:flex-row items-center justify-between gap-6"
+          className="w-full mb-12 rounded-2xl bg-white p-6 sm:p-8 border border-[#DFD5C3] shadow-sm flex flex-col md:flex-row items-center justify-between gap-6"
         >
           <div className="flex items-center gap-5">
             <div
@@ -119,7 +119,7 @@ export function HoursSection() {
         </div>
 
         {/* 7-Day Schedule Grid & Service Notes */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 w-full">
           {/* Schedule Table */}
           <div className="lg:col-span-8 bg-white rounded-2xl border border-[#DFD5C3] p-6 sm:p-8 shadow-xs">
             <div className="flex items-center justify-between pb-4 border-b border-[#EFE8DC] mb-4">

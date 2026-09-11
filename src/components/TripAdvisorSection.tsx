@@ -80,7 +80,7 @@ export function TripAdvisorSection() {
 
   return (
     <section id="reviews" className="py-20 bg-[#FAF7F0] border-b border-[#E8DEC8]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
         {/* Section Header with TripAdvisor Branding */}
         <div className="text-center max-w-3xl mx-auto mb-14 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#EAF7EE] border border-[#C2E8CC] text-[#135A30] text-xs font-semibold shadow-2xs">
@@ -229,7 +229,7 @@ export function TripAdvisorSection() {
         </div>
 
         {/* Reviews Cards Feed */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6" id="tripadvisor-reviews-feed">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6" id="tripadvisor-reviews-feed">
           {filteredReviews.map((review) => {
             const hasVoted = helpfulVotedIds.includes(review.id);
 

@@ -2,6 +2,7 @@
   "name": "PDG's Eatery",
   "description": "Traditional British cafe in St Helens featuring hearty breakfasts, home specials, opening times, contact details, and top TripAdvisor reviews.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
-

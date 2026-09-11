@@ -40,7 +40,7 @@ export function Navbar() {
             : 'bg-[#FBF9F5]/90 backdrop-blur-sm border-b border-[#EFE8DC] py-4'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+        <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 flex items-center justify-between">
           {/* Logo & Monogram */}
           <a
             href="#"

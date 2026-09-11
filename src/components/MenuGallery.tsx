@@ -77,7 +77,7 @@ export function MenuGallery() {
 
   return (
     <section id="menu" className="py-20 bg-[#FBF9F5] border-b border-[#EFE7D8]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 space-y-3">
           <span className="text-xs uppercase font-bold tracking-widest text-[#8A3B14] block">
@@ -234,7 +234,7 @@ export function MenuGallery() {
 
         {/* VIEW MODE 1: Photo Cards Gallery */}
         {viewMode === 'gallery' && filteredItems.length > 0 && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="menu-cards-grid">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="menu-cards-grid">
             {filteredItems.map((item) => {
               const isFav = savedFavorites.includes(item.id);
               return (

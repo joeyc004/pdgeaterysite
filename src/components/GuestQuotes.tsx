@@ -27,7 +27,7 @@ export function GuestQuotes() {
       <div className="absolute top-0 right-1/4 w-72 h-72 bg-[#EADCC6]/40 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-10 w-60 h-60 bg-[#DECDAF]/30 rounded-full blur-2xl pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 relative">
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center space-y-4 mb-10">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/80 border border-[#D9CEBA] text-[#8A3B14] text-xs font-bold shadow-2xs">

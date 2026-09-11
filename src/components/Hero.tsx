@@ -12,7 +12,7 @@ export function Hero() {
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#F3E5D4]/40 rounded-full blur-3xl -z-10 pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#E8DDD0]/50 rounded-full blur-3xl -z-10 pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Story & Actions */}
           <div className="lg:col-span-7 space-y-6">

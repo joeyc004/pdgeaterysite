@@ -46,7 +46,7 @@ export function ContactAndLocation() {
 
   return (
     <section id="contact" className="py-20 bg-[#FBF9F5] border-b border-[#E8DEC8]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 space-y-3">
           <span className="text-xs uppercase font-bold tracking-widest text-[#8A3B14] block">
